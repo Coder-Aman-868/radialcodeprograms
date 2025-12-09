@@ -1,0 +1,12 @@
+{
+  "/(admin)/dashboard/page": "app/(admin)/dashboard/page.js",
+  "/(admin)/login/page": "app/(admin)/login/page.js",
+  "/(admin)/programs/[id]/page": "app/(admin)/programs/[id]/page.js",
+  "/(admin)/programs/create/page": "app/(admin)/programs/create/page.js",
+  "/(admin)/programs/edit/[id]/page": "app/(admin)/programs/edit/[id]/page.js",
+  "/(admin)/programs/page": "app/(admin)/programs/page.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/(public)/program/[slug]/page": "app/(public)/program/[slug]/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
+}

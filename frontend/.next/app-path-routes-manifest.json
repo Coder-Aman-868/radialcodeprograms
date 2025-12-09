@@ -1,0 +1,12 @@
+{
+  "/(admin)/dashboard/page": "/dashboard",
+  "/(admin)/login/page": "/login",
+  "/(admin)/programs/[id]/page": "/programs/[id]",
+  "/(admin)/programs/create/page": "/programs/create",
+  "/(admin)/programs/edit/[id]/page": "/programs/edit/[id]",
+  "/(admin)/programs/page": "/programs",
+  "/(public)/page": "/",
+  "/(public)/program/[slug]/page": "/program/[slug]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found"
+}
