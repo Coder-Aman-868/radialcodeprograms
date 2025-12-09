@@ -1,0 +1,16 @@
+{
+  "name": "radial-code-dashboard",
+  "version": "1.0.0",
+  "description": "Admin portal for managing programs and student certificates",
+  "scripts": {
+    "setup": "npm run setup:frontend && npm run setup:backend",
+    "setup:frontend": "cd frontend && npm install",
+    "setup:backend": "cd backend && npm install",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run develop"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

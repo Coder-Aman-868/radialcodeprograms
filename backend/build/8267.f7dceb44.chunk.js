@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkradial_code_backend=self.webpackChunkradial_code_backend||[]).push([[8267],{78267:(d,e,a)=>{a.r(e),a.d(e,{REVIEW_WORKFLOW_STAGE_SORT_OPTION_NAME:()=>_});const _={value:"strapi_stage[name]",label:{id:"settings.defaultSortOrder.reviewWorkflows.label",defaultMessage:"Review Stage"}}}}]);
