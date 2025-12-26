@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ExclamationTriangleIcon } from '@/components/Icons';
+import Image from 'next/image';
 
 export default function NotFound() {
   return (
@@ -13,7 +14,12 @@ export default function NotFound() {
       <header className="bg-white/80 backdrop-blur-md border-b border-slate-200/50 shadow-lg shadow-slate-200/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center py-6">
-            <h1 className="text-3xl font-bold text-primary drop-shadow-sm">Radial Code</h1>
+          <Image
+            src={"/assets/images/svg/logo.svg"}
+            alt='logo'
+            width={250}
+            height={51}
+            />
           </div>
         </div>
       </header>

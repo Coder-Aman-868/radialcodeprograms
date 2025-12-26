@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RocketIcon, BookOpenIcon, SparklesIcon } from '@/components/Icons';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -13,9 +14,14 @@ export default function Home() {
       <header className="bg-white/80 backdrop-blur-md border-b border-slate-200/50 shadow-lg shadow-slate-200/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
-            <h1 className="text-3xl font-bold text-primary drop-shadow-sm">Radial Code</h1>
+          <Image
+            src={"/assets/images/svg/logo.svg"}
+            alt='logo'
+            width={250}
+            height={51}
+            />
             <Link
-              href="/login"
+              href="/admin/login"
               className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
             >
               Admin Login
@@ -27,10 +33,13 @@ export default function Home() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-12 max-w-4xl mx-auto">
-            <RocketIcon className="mx-auto mb-6 text-primary" size={64} />
-            <h1 className="text-5xl font-bold text-primary drop-shadow-sm mb-6">
-              Welcome to Radial Code
-            </h1>
+            <Image
+            src={"/assets/images/svg/logo.svg"}
+            alt='logo'
+            width={450}
+            height={51}
+            className=' mx-auto'
+            />
             <p className="text-xl text-slate-600 font-medium leading-relaxed max-w-2xl mx-auto">
               Your gateway to professional development programs and certifications.
               Explore our programs and register for upcoming events.

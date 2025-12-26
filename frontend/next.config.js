@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    STRAPI_URL: process.env.STRAPI_URL || 'http://localhost:1337',
+    STRAPI_URL: process.env.STRAPI_URL || 'https://radial-programs.onrender.com',
   },
   turbopack: {
     root: __dirname,

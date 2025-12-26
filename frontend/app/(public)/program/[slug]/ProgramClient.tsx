@@ -4,8 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import Tabs from '@/components/Tabs';
 import { Input, Button } from '@/components/Form';
-import { students, certificates } from '@/lib/api';
-import { Program, Certificate } from '@/lib/types';
+import { submitStudentForm } from '@/lib/api/programs';
 import {
     DocumentIcon,
     CalendarIcon,
@@ -28,6 +27,16 @@ interface DownloadForm {
     phone: string;
 }
 
+interface Program {
+    id: number;
+    slug: string;
+    name: string;
+    date: string;
+    venue: string;
+    description: string;
+    certificateActive: boolean;
+}
+
 interface ProgramClientProps {
     program: Program;
 }
@@ -41,73 +50,62 @@ export default function ProgramClient({ program }: ProgramClientProps) {
 
     const onRegistrationSubmit = async (data: RegistrationForm) => {
         try {
-            await students.create({
+            await submitStudentForm({
                 ...data,
-                program: program.id,
+                programId: program.id,
                 submittedOn: new Date().toISOString(),
-                certificateStatus: 'Not Generated'
             });
 
             setRegistrationSuccess(true);
         } catch (error: any) {
-            alert(error.response?.data?.error?.message || 'Error submitting registration');
+            alert('Error submitting registration');
         }
     };
+
+    const [downloading, setDownloading] = useState(false);
 
     const onDownloadSubmit = async (data: DownloadForm) => {
         setDownloadError('');
+        setDownloading(true);
 
         try {
-            // Find student by email and program
-            const studentResponse = await students.getByEmailAndProgram(data.email, program.attributes.slug);
+            const response = await fetch('/api/certificate/download', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    programId: program.id,
+                    email: data.email,
+                    phone: data.phone,
+                }),
+            });
 
-            if (studentResponse.data.length === 0) {
-                setDownloadError('No registration found with this email for this program.');
+            if (!response.ok) {
+                const errorData = await response.json();
+                setDownloadError(errorData.error || 'Failed to download certificate');
                 return;
             }
 
-            const student = studentResponse.data[0];
-
-            // Verify phone number
-            if (student.attributes.phone !== data.phone) {
-                setDownloadError('Phone number does not match our records.');
-                return;
-            }
-
-            // Get certificate for this student
-            const certificatesResponse = await certificates.getByProgram(program.id);
-            const studentCertificate = certificatesResponse.data.find((cert: Certificate) =>
-                cert.attributes.student.data.id === student.id && cert.attributes.isActive
-            );
-
-            if (!studentCertificate) {
-                setDownloadError('Certificate is not yet available for download. Please check back later.');
-                return;
-            }
-
-            // Generate and download certificate
-            const { generateCertificate } = await import('@/lib/certificate');
-            const pdfBlob = await generateCertificate(
-                student.attributes.name,
-                program.attributes.name,
-                program.attributes.date,
-                program.attributes.venue,
-                studentCertificate.attributes.uniqueId
-            );
-
-            const url = URL.createObjectURL(pdfBlob);
+            // Get the PDF blob and trigger download
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `certificate-${student.attributes.name}-${studentCertificate.attributes.uniqueId}.pdf`;
+            a.download = `certificate-${data.email}-${program.slug}.pdf`;
+            document.body.appendChild(a);
             a.click();
-            URL.revokeObjectURL(url);
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
 
         } catch (error: any) {
-            setDownloadError(error.response?.data?.error?.message || 'Error downloading certificate');
+            setDownloadError('Error downloading certificate. Please try again.');
+        } finally {
+            setDownloading(false);
         }
     };
 
-    const certificatesReady = program.attributes.certificateStatus === 'Ready';
+    const certificatesReady = program.certificateActive;
 
     const tabs = [
         {
@@ -132,18 +130,18 @@ export default function ProgramClient({ program }: ProgramClientProps) {
                         <form onSubmit={handleRegistrationSubmit(onRegistrationSubmit)} className="space-y-6">
                             <div className="text-center mb-10">
                                 <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg shadow-slate-200/50 border border-white/30">
-                                    <h2 className="text-3xl font-bold text-primary mb-3 drop-shadow-sm">Register for {program.attributes.name}</h2>
+                                    <h2 className="text-3xl font-bold text-primary mb-3 drop-shadow-sm">Register for {program.name}</h2>
                                     <div className="flex items-center justify-center space-x-4 text-slate-600 mb-4">
                                         <span className="bg-slate-100/70 px-3 py-1 rounded-full text-sm font-medium backdrop-blur-sm flex items-center">
                                             <CalendarIcon className="mr-1" size={16} />
-                                            {new Date(program.attributes.date).toLocaleDateString()}
+                                            {new Date(program.date).toLocaleDateString()}
                                         </span>
                                         <span className="bg-slate-100/70 px-3 py-1 rounded-full text-sm font-medium backdrop-blur-sm flex items-center">
                                             <MapPinIcon className="mr-1" size={16} />
-                                            {program.attributes.venue}
+                                            {program.venue}
                                         </span>
                                     </div>
-                                    <p className="text-slate-700 leading-relaxed">{program.attributes.description}</p>
+                                    <p className="text-slate-700 leading-relaxed">{program.description}</p>
                                 </div>
                             </div>
 
@@ -257,8 +255,8 @@ export default function ProgramClient({ program }: ProgramClientProps) {
                                 placeholder="The phone number you used to register"
                             />
 
-                            <Button type="submit" className="w-full">
-                                Download Certificate
+                            <Button type="submit" className="w-full" disabled={downloading}>
+                                {downloading ? 'Generating Certificate...' : 'Download Certificate'}
                             </Button>
                         </form>
                     )}
@@ -278,7 +276,7 @@ export default function ProgramClient({ program }: ProgramClientProps) {
             <header className="bg-white/80 backdrop-blur-md border-b border-slate-200/50 shadow-lg shadow-slate-200/20 sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-center items-center py-6">
-                        <h1 className="text-3xl font-bold text-primary drop-shadow-sm">Radial Code</h1>
+                        <img src="/assets/images/svg/logo.svg" alt="Logo" className="h-12 w-auto" />
                     </div>
                 </div>
             </header>
@@ -290,4 +288,4 @@ export default function ProgramClient({ program }: ProgramClientProps) {
             </div>
         </div>
     );
-}
+}   

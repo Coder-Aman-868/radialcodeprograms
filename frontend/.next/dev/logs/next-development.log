@@ -1,7 +1,1632 @@
-[00:00:02.576] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:02.981] Server  LOG      ✓ Ready in 2.2s
-[00:00:08.916] Server  LOG      ○ Compiling / ...
-[00:00:12.860] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.221] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.466] Server  LOG      ✓ Ready in 1016ms
+[00:00:04.506] Server  LOG      ○ Compiling /program/[slug] ...
+[00:00:05.760] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:06.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.725] Browser WARN    Image with src "http://localhost:3000/assets/images/svg/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:07.224] Browser ERROR   Failed to fetch program: {}
+[00:02:07.224] Browser ERROR   Failed to fetch program: {}
+[00:02:48.338] Server  LOG      ✓ Compiled in 90ms
+[00:02:50.004] Server  LOG      ✓ Compiled in 95ms
+[00:02:51.991] Server  LOG      ✓ Compiled in 85ms
+[00:02:52.723] Browser ERROR   uncaughtError: ReferenceError: co is not defined
+[00:02:54.509] Server  LOG      ✓ Compiled in 114ms
+[00:02:54.723] Browser ERROR   ./app/admin/programs/page.tsx:55:3
+Parsing ecmascript source code failed
+  53 |   const 
+  54 |
+> 55 |   if (loading) {
+     |   ^^
+  56 |     return (
+  57 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8 text-center">
+  58 |         <p className="text-slate-600">Loading programs...</p>
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:02:54.723] Browser ERROR   ./app/admin/programs/page.tsx:55:3
+Parsing ecmascript source code failed
+  53 |   const 
+  54 |
+> 55 |   if (loading) {
+     |   ^^
+  56 |     return (
+  57 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8 text-center">
+  58 |         <p className="text-slate-600">Loading programs...</p>
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:02:56.281] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:02.941] Server  LOG      ✓ Compiled in 99ms
+[00:03:09.041] Server  LOG      ✓ Compiled in 93ms
+[00:03:12.705] Server  LOG      ✓ Compiled in 87ms
+[00:03:20.076] Server  LOG      ✓ Compiled in 92ms
+[00:03:25.622] Server  LOG      ✓ Compiled in 79ms
+[00:03:30.071] Server  LOG      ✓ Compiled in 72ms
+[00:03:41.372] Server  LOG      ✓ Compiled in 80ms
+[00:03:41.725] Browser ERROR   ./app/admin/programs/page.tsx:55:3
+Parsing ecmascript source code failed
+  53 |   const handleView = (id: number,e:Event) => {
+  54 |     if
+> 55 |   };
+     |   ^
+  56 |
+  57 |   if (loading) {
+  58 |     return (
+
+Expected '(', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:03:41.725] Browser ERROR   ./app/admin/programs/page.tsx:55:3
+Parsing ecmascript source code failed
+  53 |   const handleView = (id: number,e:Event) => {
+  54 |     if
+> 55 |   };
+     |   ^
+  56 |
+  57 |   if (loading) {
+  58 |     return (
+
+Expected '(', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:03:54.073] Server  LOG      ✓ Compiled in 70ms
+[00:03:57.091] Server  LOG      ✓ Compiled in 76ms
+[00:03:58.369] Server  LOG      ✓ Compiled in 65ms
+[00:04:09.755] Server  LOG      ✓ Compiled in 78ms
+[00:04:19.473] Server  LOG      ✓ Compiled in 62ms
+[00:04:20.859] Server  LOG      ✓ Compiled in 64ms
+[00:04:21.726] Browser ERROR   ./app/admin/programs/page.tsx:54:25
+Parsing ecmascript source code failed
+  52 |
+  53 |   const handleView = (id: number,e) => {
+> 54 |     if (e.current === e.) {
+     |                         ^
+  55 |       
+  56 |     }
+  57 |   };
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:21.726] Browser ERROR   ./app/admin/programs/page.tsx:54:25
+Parsing ecmascript source code failed
+  52 |
+  53 |   const handleView = (id: number,e) => {
+> 54 |     if (e.current === e.) {
+     |                         ^
+  55 |       
+  56 |     }
+  57 |   };
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:25.884] Server  LOG      ✓ Compiled in 69ms
+[00:04:27.156] Server  LOG      ✓ Compiled in 78ms
+[00:04:28.242] Server  LOG      ✓ Compiled in 63ms
+[00:04:29.007] Server  LOG      ✓ Compiled in 62ms
+[00:04:29.727] Browser ERROR   ./app/admin/programs/page.tsx:69:3
+Parsing ecmascript source code failed
+   67 |   }
+   68 |
+>  69 |   return (
+      |   ^^^^^^^^
+>  70 |     <div className="space-y-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  71 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  72 |         <div className="flex justify-between items-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  73 |           <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  74 |             <h1 className="text-3xl font-bold text-primary drop-shadow-sm mb-2">Programs</h1>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  75 |             <p className="text-slate-600 font-medium">Manage all your programs</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  76 |           </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  77 |           <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  78 |             href="/admin/programs/create"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  79 |             className="bg-primary/90 text-white px-6 py-3 rounded-lg hover:bg-primary transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/30 backdrop-blur-sm transform hover:-translate-y-0.5 font-medium"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  80 |           >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  81 |             Create New Program
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  82 |           </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  83 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  84 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  85 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  86 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 overflow-hidden">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  87 |         <div className="overflow-x-auto">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  88 |           <table className="w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |             <thead className="bg-slate-50/50 border-b border-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  90 |               <tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  91 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Program Name</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  92 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Date</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  93 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Venue</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  94 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Certificates</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  95 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Actions</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  96 |               </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  97 |             </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  98 |             <tbody className="divide-y divide-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  99 |               {programs.map((program) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |                 <tr onClick={() => router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                     <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |                       <p className="text-sm text-slate-600 truncate max-w-xs">{program.description}</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |                     {new Date(program.date).toLocaleDateString()}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |                     {program.venue}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 |                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${program.certificateActive
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 115 |                         ? 'bg-green-100 text-green-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |                         : 'bg-yellow-100 text-yellow-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |                       }`}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                       {program.certificateActive ? 'Active' : 'Inactive'}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |                     </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |                     <div className="flex space-x-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 123 |                       <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 124 |                         href={`/admin/programs/${program.id}`}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 125 |                         title="View Details"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 126 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 127 |                       </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 128 |                       <button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |                         onClick={() => handleDelete(program.id, program.name)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 130 |                         className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 131 |                         title="Delete Program"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 132 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 133 |                         <TrashIcon size={16} />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 134 |                       </button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 135 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 136 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 137 |                 </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 138 |               ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 139 |             </tbody>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 140 |           </table>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 141 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 142 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 143 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |   );
+      | ^^^^^
+  145 | }
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:29.727] Browser ERROR   ./app/admin/programs/page.tsx:69:3
+Parsing ecmascript source code failed
+   67 |   }
+   68 |
+>  69 |   return (
+      |   ^^^^^^^^
+>  70 |     <div className="space-y-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  71 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  72 |         <div className="flex justify-between items-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  73 |           <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  74 |             <h1 className="text-3xl font-bold text-primary drop-shadow-sm mb-2">Programs</h1>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  75 |             <p className="text-slate-600 font-medium">Manage all your programs</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  76 |           </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  77 |           <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  78 |             href="/admin/programs/create"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  79 |             className="bg-primary/90 text-white px-6 py-3 rounded-lg hover:bg-primary transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/30 backdrop-blur-sm transform hover:-translate-y-0.5 font-medium"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  80 |           >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  81 |             Create New Program
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  82 |           </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  83 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  84 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  85 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  86 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 overflow-hidden">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  87 |         <div className="overflow-x-auto">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  88 |           <table className="w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |             <thead className="bg-slate-50/50 border-b border-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  90 |               <tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  91 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Program Name</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  92 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Date</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  93 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Venue</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  94 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Certificates</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  95 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Actions</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  96 |               </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  97 |             </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  98 |             <tbody className="divide-y divide-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  99 |               {programs.map((program) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |                 <tr onClick={() => router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                     <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |                       <p className="text-sm text-slate-600 truncate max-w-xs">{program.description}</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |                     {new Date(program.date).toLocaleDateString()}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |                     {program.venue}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 |                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${program.certificateActive
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 115 |                         ? 'bg-green-100 text-green-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |                         : 'bg-yellow-100 text-yellow-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |                       }`}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                       {program.certificateActive ? 'Active' : 'Inactive'}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |                     </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |                     <div className="flex space-x-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 123 |                       <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 124 |                         href={`/admin/programs/${program.id}`}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 125 |                         title="View Details"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 126 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 127 |                       </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 128 |                       <button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |                         onClick={() => handleDelete(program.id, program.name)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 130 |                         className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 131 |                         title="Delete Program"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 132 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 133 |                         <TrashIcon size={16} />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 134 |                       </button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 135 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 136 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 137 |                 </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 138 |               ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 139 |             </tbody>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 140 |           </table>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 141 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 142 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 143 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |   );
+      | ^^^^^
+  145 | }
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:29.727] Browser ERROR   ./app/admin/programs/page.tsx:69:3
+Parsing ecmascript source code failed
+   67 |   }
+   68 |
+>  69 |   return (
+      |   ^^^^^^^^
+>  70 |     <div className="space-y-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  71 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  72 |         <div className="flex justify-between items-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  73 |           <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  74 |             <h1 className="text-3xl font-bold text-primary drop-shadow-sm mb-2">Programs</h1>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  75 |             <p className="text-slate-600 font-medium">Manage all your programs</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  76 |           </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  77 |           <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  78 |             href="/admin/programs/create"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  79 |             className="bg-primary/90 text-white px-6 py-3 rounded-lg hover:bg-primary transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/30 backdrop-blur-sm transform hover:-translate-y-0.5 font-medium"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  80 |           >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  81 |             Create New Program
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  82 |           </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  83 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  84 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  85 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  86 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 overflow-hidden">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  87 |         <div className="overflow-x-auto">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  88 |           <table className="w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |             <thead className="bg-slate-50/50 border-b border-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  90 |               <tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  91 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Program Name</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  92 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Date</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  93 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Venue</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  94 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Certificates</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  95 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Actions</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  96 |               </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  97 |             </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  98 |             <tbody className="divide-y divide-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  99 |               {programs.map((program) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |                 <tr onClick={() => router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                     <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |                       <p className="text-sm text-slate-600 truncate max-w-xs">{program.description}</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |                     {new Date(program.date).toLocaleDateString()}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |                     {program.venue}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 |                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${program.certificateActive
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 115 |                         ? 'bg-green-100 text-green-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |                         : 'bg-yellow-100 text-yellow-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |                       }`}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                       {program.certificateActive ? 'Active' : 'Inactive'}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |                     </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |                     <div className="flex space-x-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 123 |                       <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 124 |                         href={`/admin/programs/${program.id}`}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 125 |                         title="View Details"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 126 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 127 |                       </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 128 |                       <button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |                         onClick={() => handleDelete(program.id, program.name)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 130 |                         className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 131 |                         title="Delete Program"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 132 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 133 |                         <TrashIcon size={16} />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 134 |                       </button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 135 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 136 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 137 |                 </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 138 |               ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 139 |             </tbody>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 140 |           </table>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 141 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 142 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 143 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |   );
+      | ^^^^^
+  145 | }
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:29.727] Browser ERROR   ./app/admin/programs/page.tsx:69:3
+Parsing ecmascript source code failed
+   67 |   }
+   68 |
+>  69 |   return (
+      |   ^^^^^^^^
+>  70 |     <div className="space-y-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  71 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 p-8">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  72 |         <div className="flex justify-between items-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  73 |           <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  74 |             <h1 className="text-3xl font-bold text-primary drop-shadow-sm mb-2">Programs</h1>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  75 |             <p className="text-slate-600 font-medium">Manage all your programs</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  76 |           </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  77 |           <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  78 |             href="/admin/programs/create"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  79 |             className="bg-primary/90 text-white px-6 py-3 rounded-lg hover:bg-primary transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/30 backdrop-blur-sm transform hover:-translate-y-0.5 font-medium"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  80 |           >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  81 |             Create New Program
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  82 |           </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  83 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  84 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  85 |
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  86 |       <div className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl shadow-slate-300/20 border border-white/20 overflow-hidden">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  87 |         <div className="overflow-x-auto">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  88 |           <table className="w-full">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  89 |             <thead className="bg-slate-50/50 border-b border-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  90 |               <tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  91 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Program Name</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  92 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Date</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  93 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Venue</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  94 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Certificates</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  95 |                 <th className="px-6 py-4 text-left text-sm font-semibold text-slate-700">Actions</th>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  96 |               </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  97 |             </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  98 |             <tbody className="divide-y divide-slate-200/50">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  99 |               {programs.map((program) => (
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |                 <tr onClick={() => router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                     <div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |                       <p className="text-sm text-slate-600 truncate max-w-xs">{program.description}</p>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |                     {new Date(program.date).toLocaleDateString()}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |                   <td className="px-6 py-4 text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |                     {program.venue}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 |                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${program.certificateActive
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 115 |                         ? 'bg-green-100 text-green-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |                         : 'bg-yellow-100 text-yellow-700'
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |                       }`}>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                       {program.certificateActive ? 'Active' : 'Inactive'}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |                     </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |                   <td className="px-6 py-4">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |                     <div className="flex space-x-2">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 123 |                       <Link
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 124 |                         href={`/admin/programs/${program.id}`}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 125 |                         title="View Details"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 126 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 127 |                       </Link>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 128 |                       <button
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 129 |                         onClick={() => handleDelete(program.id, program.name)}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 130 |                         className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 131 |                         title="Delete Program"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 132 |                       >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 133 |                         <TrashIcon size={16} />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 134 |                       </button>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 135 |                     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 136 |                   </td>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 137 |                 </tr>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 138 |               ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 139 |             </tbody>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 140 |           </table>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 141 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 142 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 143 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |   );
+      | ^^^^^
+  145 | }
+
+Return statement is not allowed here
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:36.249] Server  LOG      ✓ Compiled in 55ms
+[00:04:44.337] Server  LOG      ✓ Compiled in 52ms
+[00:04:44.718] Browser ERROR   ./app/admin/programs/page.tsx:53:36
+Parsing ecmascript source code failed
+  51 |   };
+  52 |
+> 53 |   const handleView = (id: number,e:) => {
+     |                                    ^
+  54 |     if (e.current === e.currentTarget) {
+  55 |       router.push(`/admin/programs/${id}`);
+  56 |     }
+
+Unexpected token `)`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:04:44.718] Browser ERROR   ./app/admin/programs/page.tsx:53:36
+Parsing ecmascript source code failed
+  51 |   };
+  52 |
+> 53 |   const handleView = (id: number,e:) => {
+     |                                    ^
+  54 |     if (e.current === e.currentTarget) {
+  55 |       router.push(`/admin/programs/${id}`);
+  56 |     }
+
+Unexpected token `)`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:05:28.303] Server  LOG      ✓ Compiled in 59ms
+[00:05:28.730] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:05:28.730] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:36.722] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if() router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:36.722] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if() router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:39.721] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:39.721] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:40.718] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(else.) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:40.719] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(else.) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:43.723] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.c) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:43.723] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.c) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:44.724] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.cu) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:44.724] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.cu) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:46.721] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.current) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:46.721] Browser ERROR   ./app/admin/programs/page.tsx:98:36
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={() => if(e.current) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                    ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:48.718] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:48.718] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:53.722] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:53.723] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:55.724] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:55.724] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:58.724] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:06:58.724] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:00.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:00.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) router.push(`/admin/programs/${program.id}`)} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:05.723] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {router.push(`/admin/programs/${program.id}`)}} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:05.724] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {router.push(`/admin/programs/${program.id}`)}} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+      |                                     ^^
+   99 |                   <td className="px-6 py-4">
+  100 |                     <div>
+  101 |                       <h3 className="font-semibold text-slate-800">{program.name}</h3>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:12.722] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)}} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  100 |                   <td className="px-6 py-4">
+  101 |                     <div>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:12.723] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)}} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  100 |                   <td className="px-6 py-4">
+  101 |                     <div>
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:15.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:15.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:15.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:15.720] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:16.723] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:16.723] Browser ERROR   ./app/admin/programs/page.tsx:98:37
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e) => if(e.current === e.currentTarget) {
+      |                                     ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:48.724] Browser ERROR   ./app/admin/programs/page.tsx:98:81
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e:MouseEvent<HTMLTableRowElement, MouseEvent>) => if(e.current === e.currentTarget) {
+      |                                                                                 ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:48.725] Browser ERROR   ./app/admin/programs/page.tsx:98:81
+Parsing ecmascript source code failed
+   96 |             <tbody className="divide-y divide-slate-200/50">
+   97 |               {programs.map((program) => (
+>  98 |                 <tr onClick={(e:MouseEvent<HTMLTableRowElement, MouseEvent>) => if(e.current === e.currentTarget) {
+      |                                                                                 ^^
+   99 |                   router.push(`/admin/programs/${program.id}`)
+  100 |                 }} key={program.id} className="hover:bg-slate-50/30 transition-colors cursor-pointer">
+  101 |                   <td className="px-6 py-4">
+
+Expected '</', got 'if'
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:58.638] Server  LOG      ✓ Compiled in 76ms
+[00:07:59.720] Browser ERROR   ./app/admin/programs/page.tsx:53:36
+Parsing ecmascript source code failed
+  51 |   };
+  52 |
+> 53 |   const handleView = (id: number,e:) => {
+     |                                    ^
+  54 |     if (e.current === e.currentTarget) {
+  55 |       router.push(`/admin/programs/${id}`);
+  56 |     }
+
+Unexpected token `)`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:07:59.721] Browser ERROR   ./app/admin/programs/page.tsx:53:36
+Parsing ecmascript source code failed
+  51 |   };
+  52 |
+> 53 |   const handleView = (id: number,e:) => {
+     |                                    ^
+  54 |     if (e.current === e.currentTarget) {
+  55 |       router.push(`/admin/programs/${id}`);
+  56 |     }
+
+Unexpected token `)`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/programs/page.tsx [Client Component Browser]
+    ./app/admin/programs/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/programs/page.tsx [Client Component SSR]
+    ./app/admin/programs/page.tsx [Server Component]
+[00:10:22.310] Server  LOG      ✓ Compiled in 128ms
+[00:11:28.168] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -19,7 +1644,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/program/a..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -28,8 +1653,6 @@ It can also happen if the client has a browser extension installed which messes 
                       <SegmentTrieNode>
                       <link>
                       <script>
-                      <script>
-                      <script>
                       <RootLayout>
                         <html
                           lang="en"
@@ -37,1193 +1660,52 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:02:34.069] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[02:56:37.728] Browser ERROR   ./lib/api/programs.ts:3:48
+Parsing ecmascript source code failed
+  1 | const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  2 |
+> 3 | async function apiFetch(url: string, options = }) 
+    |                                                ^
+  4 |   const res = await fetch(BASE_URL + url, 
+  5 |     headers:  "Content-Type": "application/json" },
+  6 |     ...options,
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         crxlauncher=""
-                        >
-                  ...
-
-[00:02:39.642] Server  LOG     getBySlug called with slug: "asd"
-[00:02:39.642] Server  LOG     Trying public API with token...
-[00:02:39.755] Server  LOG     Found program in public API: "asd"
-[00:02:39.757] Server  LOG     Program fetched successfully: "Found" {}
-[00:08:59.097] Server  LOG      ✓ Compiled in 72ms
-[00:09:37.250] Server  LOG      ✓ Compiled in 1524ms
-[00:10:01.995] Server  LOG      ✓ Compiled in 123ms
-[00:10:10.367] Server  LOG      ✓ Compiled in 130ms
-[00:11:35.998] Server  LOG      ✓ Compiled in 125ms
-[00:12:04.849] Server  LOG     getBySlug called with slug: "asd"
-[00:12:04.850] Server  LOG     Trying public API with token...
-[00:12:04.878] Server  LOG      ✓ Compiled in 147ms
-[00:12:04.900] Server  LOG     Found program in public API: "asd"
-[00:12:04.901] Server  LOG     Program fetched successfully: "Found" {}
-[00:13:15.389] Server  LOG     getBySlug called with slug: "asd"
-[00:13:15.390] Server  LOG     Trying public API with token...
-[00:13:15.442] Server  LOG     Found program in public API: "asd"
-[00:13:15.443] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:18.682] Server  LOG     getBySlug called with slug: "asd"
-[00:18:18.683] Server  LOG     Trying public API with token...
-[00:18:18.961] Server  LOG     Found program in public API: "asd"
-[00:18:18.962] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:42.639] Server  LOG      ✓ Compiled in 90ms
-[00:18:42.765] Server  LOG     getBySlug called with slug: "asd"
-[00:18:42.766] Server  LOG     Trying public API with token...
-[00:18:42.795] Server  LOG     Found program in public API: "asd"
-[00:18:42.795] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:49.031] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
+Expression expected
 
 Import traces:
   Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
+    ./lib/api/programs.ts [Client Component Browser]
+    ./app/(public)/program/[slug]/ProgramClient.tsx [Client Component Browser]
+    ./app/(public)/program/[slug]/page.tsx [Client Component Browser]
+    ./app/(public)/program/[slug]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
+    ./lib/api/programs.ts [Client Component SSR]
+    ./app/(public)/program/[slug]/ProgramClient.tsx [Client Component SSR]
+    ./app/(public)/program/[slug]/page.tsx [Client Component SSR]
+    ./app/(public)/program/[slug]/page.tsx [Server Component]
+[02:56:41.727] Browser ERROR   ./lib/api/programs.ts:3:48
+Parsing ecmascript source code failed
+  1 | const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  2 |
+> 3 | async function apiFetch(url: string, options = }) 
+    |                                                ^
+  4 |   const res = await fetch(BASE_URL + url, 
+  5 |     headers:  "Content-Type": "application/json" },
+  6 |     ...options,
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.039] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
+Expression expected
 
 Import traces:
   Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
+    ./lib/api/programs.ts [Client Component Browser]
+    ./app/(public)/program/[slug]/ProgramClient.tsx [Client Component Browser]
+    ./app/(public)/program/[slug]/page.tsx [Client Component Browser]
+    ./app/(public)/program/[slug]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.044] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.049] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.057] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.062] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.070] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.073] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.076] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.081] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.084] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.088] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.091] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.095] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.097] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.100] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.104] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.106] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.110] Server  LOG      ✓ Compiled in 85ms
-[00:18:49.137] Server  WARN     ⚠ ./app/(public)/program/[slug]/ProgramClient.tsx:89:51
-Module not found: Can't resolve '@/lib/certificate'
-  87 |
-  88 |             // Generate and download certificate
-> 89 |             const { generateCertificate } = await import('@/lib/certificate');
-     |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  90 |             const pdfBlob = await generateCertificate(
-  91 |                 student.attributes.name,
-  92 |                 program.attributes.name,
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/(public)/program/[slug]/ProgramClient.tsx
-    ./app/(public)/program/[slug]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.301] Server  LOG     getBySlug called with slug: "asd"
-[00:18:49.301] Server  LOG     Trying public API with token...
-[00:18:49.343] Server  ERROR    ⨯ ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.347] Server  WARN     ⚠ ./app/(public)/program/[slug]/ProgramClient.tsx:89:51
-Module not found: Can't resolve '@/lib/certificate'
-  87 |
-  88 |             // Generate and download certificate
-> 89 |             const { generateCertificate } = await import('@/lib/certificate');
-     |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  90 |             const pdfBlob = await generateCertificate(
-  91 |                 student.attributes.name,
-  92 |                 program.attributes.name,
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-
-Import trace:
-  Server Component:
-    ./app/(public)/program/[slug]/ProgramClient.tsx
-    ./app/(public)/program/[slug]/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:18:49.485] Server  LOG      ✓ Compiled in 180ms
-[00:18:49.487] Browser ERROR   ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:18:49.487] Browser ERROR   ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:18:49.506] Server  LOG     Found program in public API: "asd"
-[00:18:49.507] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:49.634] Server  LOG     getBySlug called with slug: "asd"
-[00:18:49.635] Server  LOG     Trying public API with token...
-[00:18:49.658] Server  LOG     Found program in public API: "asd"
-[00:18:49.659] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:49.680] Server  LOG     getBySlug called with slug: "asd"
-[00:18:49.681] Server  LOG     Trying public API with token...
-[00:18:49.701] Server  LOG     Found program in public API: "asd"
-[00:18:49.701] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:49.848] Browser ERROR   ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:18:49.848] Browser ERROR   ./app/(admin)/programs/[id]/page.tsx:12:1
-Module not found: Can't resolve '@/lib/certificate'
-  10 | import { programs, students, certificates } from '@/lib/api';
-  11 | import { Program, Student, Certificate } from '@/lib/types';
-> 12 | import { generateCertificate, generateUniqueId } from '@/lib/certificate';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  13 |
-  14 | interface ProgramDetailProps {
-  15 |   params: Promise<{ id: string }>;
-
-Import map: aliased to relative './lib/certificate' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component Browser]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/(admin)/programs/[id]/page.tsx [Client Component SSR]
-    ./app/(admin)/programs/[id]/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:18:51.467] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/programs/6" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         crxlauncher=""
-                        >
-                  ...
-
-[00:18:54.744] Server  LOG      ✓ Compiled in 1621ms
-[00:18:57.346] Server  LOG      ✓ Compiled in 1260ms
-[00:18:58.532] Server  LOG     getBySlug called with slug: "asd"
-[00:18:58.533] Server  LOG     Trying public API with token...
-[00:18:58.659] Server  LOG     Found program in public API: "asd"
-[00:18:58.659] Server  LOG     Program fetched successfully: "Found" {}
-[00:18:59.259] Server  LOG      ✓ Compiled in 98ms
-[00:19:05.490] Server  LOG     getBySlug called with slug: "asd"
-[00:19:05.491] Server  LOG     Trying public API with token...
-[00:19:05.529] Server  LOG     Found program in public API: "asd"
-[00:19:05.530] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:08.850] Server  LOG     getBySlug called with slug: "asd"
-[00:19:08.851] Server  LOG     Trying public API with token...
-[00:19:08.907] Server  LOG     Found program in public API: "asd"
-[00:19:08.908] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:08.974] Server  LOG     getBySlug called with slug: "asd"
-[00:19:08.975] Server  LOG     Trying public API with token...
-[00:19:08.997] Server  LOG     Found program in public API: "asd"
-[00:19:08.997] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.025] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.025] Server  LOG     Trying public API with token...
-[00:19:09.054] Server  LOG     Found program in public API: "asd"
-[00:19:09.054] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.089] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.090] Server  LOG     Trying public API with token...
-[00:19:09.126] Server  LOG     Found program in public API: "asd"
-[00:19:09.126] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.187] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.188] Server  LOG     Trying public API with token...
-[00:19:09.215] Server  LOG     Found program in public API: "asd"
-[00:19:09.216] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.264] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.264] Server  LOG     Trying public API with token...
-[00:19:09.287] Server  LOG     Found program in public API: "asd"
-[00:19:09.288] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.351] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.352] Server  LOG     Trying public API with token...
-[00:19:09.388] Server  LOG     Found program in public API: "asd"
-[00:19:09.388] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.450] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.451] Server  LOG     Trying public API with token...
-[00:19:09.467] Server  LOG     Found program in public API: "asd"
-[00:19:09.468] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.485] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.485] Server  LOG     Trying public API with token...
-[00:19:09.511] Server  LOG     Found program in public API: "asd"
-[00:19:09.511] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.539] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.539] Server  LOG     Trying public API with token...
-[00:19:09.564] Server  LOG     Found program in public API: "asd"
-[00:19:09.565] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.606] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.606] Server  LOG     Trying public API with token...
-[00:19:09.622] Server  LOG     Found program in public API: "asd"
-[00:19:09.622] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.658] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.659] Server  LOG     Trying public API with token...
-[00:19:09.674] Server  LOG     Found program in public API: "asd"
-[00:19:09.674] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.707] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.708] Server  LOG     Trying public API with token...
-[00:19:09.724] Server  LOG     Found program in public API: "asd"
-[00:19:09.724] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.763] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.764] Server  LOG     Trying public API with token...
-[00:19:09.779] Server  LOG     Found program in public API: "asd"
-[00:19:09.780] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.817] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.818] Server  LOG     Trying public API with token...
-[00:19:09.834] Server  LOG     Found program in public API: "asd"
-[00:19:09.834] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.889] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.890] Server  LOG     Trying public API with token...
-[00:19:09.919] Server  LOG     Found program in public API: "asd"
-[00:19:09.919] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:09.939] Server  LOG     getBySlug called with slug: "asd"
-[00:19:09.939] Server  LOG     Trying public API with token...
-[00:19:09.957] Server  LOG     Found program in public API: "asd"
-[00:19:09.958] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.002] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.003] Server  LOG     Trying public API with token...
-[00:19:10.015] Server  LOG     Found program in public API: "asd"
-[00:19:10.015] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.052] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.052] Server  LOG     Trying public API with token...
-[00:19:10.067] Server  LOG     Found program in public API: "asd"
-[00:19:10.068] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.106] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.107] Server  LOG     Trying public API with token...
-[00:19:10.122] Server  LOG     Found program in public API: "asd"
-[00:19:10.123] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.158] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.158] Server  LOG     Trying public API with token...
-[00:19:10.172] Server  LOG     Found program in public API: "asd"
-[00:19:10.173] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.211] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.212] Server  LOG     Trying public API with token...
-[00:19:10.229] Server  LOG     Found program in public API: "asd"
-[00:19:10.229] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.266] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.266] Server  LOG     Trying public API with token...
-[00:19:10.285] Server  LOG     Found program in public API: "asd"
-[00:19:10.285] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.327] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.327] Server  LOG     Trying public API with token...
-[00:19:10.341] Server  LOG     Found program in public API: "asd"
-[00:19:10.342] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.383] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.383] Server  LOG     Trying public API with token...
-[00:19:10.400] Server  LOG     Found program in public API: "asd"
-[00:19:10.400] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.434] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.435] Server  LOG     Trying public API with token...
-[00:19:10.450] Server  LOG     Found program in public API: "asd"
-[00:19:10.451] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.487] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.487] Server  LOG     Trying public API with token...
-[00:19:10.505] Server  LOG     Found program in public API: "asd"
-[00:19:10.506] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.551] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.551] Server  LOG     Trying public API with token...
-[00:19:10.590] Server  LOG     Found program in public API: "asd"
-[00:19:10.590] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.633] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.633] Server  LOG     Trying public API with token...
-[00:19:10.648] Server  LOG     Found program in public API: "asd"
-[00:19:10.648] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.685] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.685] Server  LOG     Trying public API with token...
-[00:19:10.700] Server  LOG     Found program in public API: "asd"
-[00:19:10.700] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.750] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.750] Server  LOG     Trying public API with token...
-[00:19:10.764] Server  LOG     Found program in public API: "asd"
-[00:19:10.765] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.797] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.798] Server  LOG     Trying public API with token...
-[00:19:10.811] Server  LOG     Found program in public API: "asd"
-[00:19:10.811] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.855] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.855] Server  LOG     Trying public API with token...
-[00:19:10.885] Server  LOG     Found program in public API: "asd"
-[00:19:10.885] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.905] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.906] Server  LOG     Trying public API with token...
-[00:19:10.921] Server  LOG     Found program in public API: "asd"
-[00:19:10.921] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:10.957] Server  LOG     getBySlug called with slug: "asd"
-[00:19:10.957] Server  LOG     Trying public API with token...
-[00:19:10.970] Server  LOG     Found program in public API: "asd"
-[00:19:10.970] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:11.007] Server  LOG     getBySlug called with slug: "asd"
-[00:19:11.007] Server  LOG     Trying public API with token...
-[00:19:11.023] Server  LOG     Found program in public API: "asd"
-[00:19:11.024] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:29.065] Server  LOG     getBySlug called with slug: "asd"
-[00:19:29.065] Server  LOG     Trying public API with token...
-[00:19:29.153] Server  LOG     Found program in public API: "asd"
-[00:19:29.154] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:29.202] Server  LOG     getBySlug called with slug: "asd"
-[00:19:29.202] Server  LOG     Trying public API with token...
-[00:19:29.226] Server  LOG     Found program in public API: "asd"
-[00:19:29.227] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:29.344] Server  LOG      ✓ Compiled in 108ms
-[00:19:29.669] Server  LOG     getBySlug called with slug: "asd"
-[00:19:29.669] Server  LOG     Trying public API with token...
-[00:19:29.690] Server  LOG     Found program in public API: "asd"
-[00:19:29.691] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:29.748] Server  LOG     getBySlug called with slug: "asd"
-[00:19:29.748] Server  LOG     Trying public API with token...
-[00:19:29.762] Server  LOG     Found program in public API: "asd"
-[00:19:29.763] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:30.350] Server  LOG     getBySlug called with slug: "asd"
-[00:19:30.350] Server  LOG     Trying public API with token...
-[00:19:30.370] Server  LOG     Found program in public API: "asd"
-[00:19:30.371] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:30.388] Server  LOG     getBySlug called with slug: "asd"
-[00:19:30.388] Server  LOG     Trying public API with token...
-[00:19:30.403] Server  LOG     Found program in public API: "asd"
-[00:19:30.403] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:32.286] Server  LOG     getBySlug called with slug: "asd"
-[00:19:32.286] Server  LOG     Trying public API with token...
-[00:19:32.310] Server  LOG     Found program in public API: "asd"
-[00:19:32.310] Server  LOG     Program fetched successfully: "Found" {}
-[00:19:32.397] Server  LOG     getBySlug called with slug: "asd"
-[00:19:32.397] Server  LOG     Trying public API with token...
-[00:19:32.414] Server  LOG     Found program in public API: "asd"
-[00:19:32.415] Server  LOG     Program fetched successfully: "Found" {}
-[00:20:02.872] Server  LOG     getBySlug called with slug: "asd"
-[00:20:02.873] Server  LOG     Trying public API with token...
-[00:20:02.899] Server  LOG     Found program in public API: "asd"
-[00:20:02.900] Server  LOG     Program fetched successfully: "Found" {}
-[00:20:03.329] Server  LOG     getBySlug called with slug: "asd"
-[00:20:03.329] Server  LOG     Trying public API with token...
-[00:20:03.345] Server  LOG     Found program in public API: "asd"
-[00:20:03.346] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:07.970] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:07.971] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:08.001] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:08.002] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:08.035] Server  LOG      ✓ Compiled in 91ms
-[00:21:08.226] Server  LOG      ✓ Compiled in 143ms
-[00:21:08.232] Browser ERROR   ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:08.291] Server  LOG     getBySlug called with slug: "asd"
-[00:21:08.292] Server  LOG     Trying public API with token...
-[00:21:08.325] Server  LOG     getBySlug called with slug: "asd"
-[00:21:08.326] Server  LOG     Trying public API with token...
-[00:21:08.363] Server  LOG     Found program in public API: "asd"
-[00:21:08.364] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:08.378] Server  LOG     Found program in public API: "asd"
-[00:21:08.379] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:08.468] Browser ERROR   ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:08.953] Server  LOG     getBySlug called with slug: "asd"
-[00:21:08.954] Server  LOG     Trying public API with token...
-[00:21:08.969] Server  LOG     Found program in public API: "asd"
-[00:21:08.970] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:09.568] Server  LOG     getBySlug called with slug: "asd"
-[00:21:09.569] Server  LOG     Trying public API with token...
-[00:21:09.583] Server  LOG     Found program in public API: "asd"
-[00:21:09.584] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:10.111] Server  LOG     getBySlug called with slug: "asd"
-[00:21:10.111] Server  LOG     Trying public API with token...
-[00:21:10.125] Server  LOG     Found program in public API: "asd"
-[00:21:10.126] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:10.626] Server  LOG     getBySlug called with slug: "asd"
-[00:21:10.627] Server  LOG     Trying public API with token...
-[00:21:10.641] Server  LOG     Found program in public API: "asd"
-[00:21:10.642] Server  LOG     Program fetched successfully: "Found" {}
-[00:21:11.079] Server  LOG     getBySlug called with slug: "asd"
-[00:21:11.079] Server  LOG     Trying public API with token...
-[00:21:11.093] Server  LOG     Found program in public API: "asd"
-[00:21:11.094] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:36.137] Server  LOG     getBySlug called with slug: "asd"
-[00:22:36.138] Server  LOG     Trying public API with token...
-[00:22:36.161] Server  LOG     Found program in public API: "asd"
-[00:22:36.161] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:37.513] Server  LOG     getBySlug called with slug: "asd"
-[00:22:37.514] Server  LOG     Trying public API with token...
-[00:22:37.530] Server  LOG     Found program in public API: "asd"
-[00:22:37.531] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:38.000] Server  LOG     getBySlug called with slug: "asd"
-[00:22:38.000] Server  LOG     Trying public API with token...
-[00:22:38.016] Server  LOG     Found program in public API: "asd"
-[00:22:38.016] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:38.247] Server  LOG     getBySlug called with slug: "asd"
-[00:22:38.248] Server  LOG     Trying public API with token...
-[00:22:38.262] Server  LOG     Found program in public API: "asd"
-[00:22:38.263] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:40.096] Server  LOG      ✓ Compiled in 93ms
-[00:22:40.215] Server  LOG     getBySlug called with slug: "asd"
-[00:22:40.215] Server  LOG     Trying public API with token...
-[00:22:40.237] Server  LOG     getBySlug called with slug: "asd"
-[00:22:40.237] Server  LOG     Trying public API with token...
-[00:22:40.257] Server  LOG     Found program in public API: "asd"
-[00:22:40.258] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:40.269] Server  LOG     Found program in public API: "asd"
-[00:22:40.269] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:40.296] Server  LOG     getBySlug called with slug: "asd"
-[00:22:40.297] Server  LOG     Trying public API with token...
-[00:22:56.943] Server  LOG     getBySlug called with slug: "asd"
-[00:22:56.944] Server  LOG     Trying public API with token...
-[00:22:56.967] Server  LOG     Found program in public API: "asd"
-[00:22:56.968] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:57.453] Server  LOG     getBySlug called with slug: "asd"
-[00:22:57.453] Server  LOG     Trying public API with token...
-[00:22:57.469] Server  LOG     Found program in public API: "asd"
-[00:22:57.469] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:57.476] Server  LOG      ✓ Compiled in 120ms
-[00:22:57.644] Server  LOG     getBySlug called with slug: "asd"
-[00:22:57.645] Server  LOG     Trying public API with token...
-[00:22:57.659] Server  LOG     Found program in public API: "asd"
-[00:22:57.659] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:57.820] Server  LOG     getBySlug called with slug: "asd"
-[00:22:57.821] Server  LOG     Trying public API with token...
-[00:22:57.852] Server  LOG     Found program in public API: "asd"
-[00:22:57.852] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:57.872] Server  LOG     getBySlug called with slug: "asd"
-[00:22:57.872] Server  LOG     Trying public API with token...
-[00:22:57.887] Server  LOG     Found program in public API: "asd"
-[00:22:57.887] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:58.031] Server  LOG     getBySlug called with slug: "asd"
-[00:22:58.031] Server  LOG     Trying public API with token...
-[00:22:58.045] Server  LOG     Found program in public API: "asd"
-[00:22:58.046] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:58.216] Server  LOG     getBySlug called with slug: "asd"
-[00:22:58.216] Server  LOG     Trying public API with token...
-[00:22:58.247] Server  LOG     Found program in public API: "asd"
-[00:22:58.247] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:58.273] Server  LOG     getBySlug called with slug: "asd"
-[00:22:58.273] Server  LOG     Trying public API with token...
-[00:22:58.288] Server  LOG     Found program in public API: "asd"
-[00:22:58.289] Server  LOG     Program fetched successfully: "Found" {}
-[00:22:58.493] Server  LOG     getBySlug called with slug: "asd"
-[00:22:58.493] Server  LOG     Trying public API with token...
-[00:22:58.508] Server  LOG     Found program in public API: "asd"
-[00:22:58.508] Server  LOG     Program fetched successfully: "Found" {}
-[00:24:08.192] Server  LOG      ✓ Compiled in 2s
-[00:24:13.742] Server  LOG      ✓ Compiled in 871ms
-[00:24:15.658] Server  LOG      ✓ Compiled in 924ms
-[00:24:30.751] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:24:30.752] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:24:30.753] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:24:30.756] Server  ERROR    ⨯ ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:24:30.791] Server  LOG      ✓ Compiled in 70ms
-[00:24:30.958] Server  LOG      ✓ Compiled in 103ms
-[00:24:30.973] Browser ERROR   ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-https://nextjs.org/docs/messages/module-not-found
-[00:24:31.008] Server  LOG     getBySlug called with slug: "asd"
-[00:24:31.009] Server  LOG     Trying public API with token...
-[00:24:31.052] Server  LOG     getBySlug called with slug: "asd"
-[00:24:31.055] Server  LOG     Trying public API with token...
-[00:24:31.160] Server  LOG     Found program in public API: "asd"
-[00:24:31.161] Server  LOG     Program fetched successfully: "Found" {}
-[00:24:31.177] Server  LOG     Found program in public API: "asd"
-[00:24:31.177] Server  LOG     Program fetched successfully: "Found" {}
-[00:24:31.472] Browser ERROR   ./app/(public)/program/[slug]/page.tsx:3:1
-Module not found: Can't resolve './ProgramClient'
-  1 | import { notFound } from 'next/navigation';
-  2 | import { programs } from '@/lib/api';
-> 3 | import ProgramClient from './ProgramClient';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface ProgramPageProps {
-  6 |   params: Promise<{ slug: string }>;
-
-https://nextjs.org/docs/messages/module-not-found
-[00:25:22.722] Server  LOG      ✓ Compiled in 167ms
-[00:25:22.909] Server  LOG     getBySlug called with slug: "asd"
-[00:25:22.910] Server  LOG     Trying public API with token...
-[00:25:22.938] Server  LOG     Found program in public API: "asd"
-[00:25:22.939] Server  LOG     Program fetched successfully: "Found" {}
+    ./lib/api/programs.ts [Client Component SSR]
+    ./app/(public)/program/[slug]/ProgramClient.tsx [Client Component SSR]
+    ./app/(public)/program/[slug]/page.tsx [Client Component SSR]
+    ./app/(public)/program/[slug]/page.tsx [Server Component]
+[02:56:44.243] Server  LOG      ✓ Compiled in 88ms

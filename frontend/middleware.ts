@@ -3,25 +3,20 @@ import type { NextRequest } from 'next/server';
 
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  
-  // Only protect admin routes
-  if (pathname.startsWith('/admin')) {
-    const token = request.cookies.get('token')?.value;
-    
-    // If no token and trying to access admin routes (except login), redirect to admin login
-    if (!token && pathname !== '/admin/login') {
-      return NextResponse.redirect(new URL('/admin/login', request.url));
-    }
-    
-    // If has token and trying to access admin login, redirect to admin dashboard
-    if (token && pathname === '/admin/login') {
-      return NextResponse.redirect(new URL('/admin/dashboard', request.url));
+
+  // Only redirect to dashboard if already logged in and trying to access login
+  if (pathname === '/admin/login') {
+    const token = request.cookies.get('admin-token')?.value;
+
+    // Only redirect if token exists and is not empty
+    if (token && token.trim() && token !== 'undefined' && token !== 'null') {
+      return NextResponse.redirect(new URL('/admin', request.url));
     }
   }
-  
+
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: ['/admin/:path*']
+  matcher: ['/admin/login']
 };
